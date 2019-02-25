@@ -1,47 +1,47 @@
 .player {
-	width: 100%;
-	&-fill {
-		width: 100%;
-		height: 102px;
-	}
-	&-min {
-		position: fixed;
-		right: 0;
-		bottom: 0;
-		left: 0;
-		z-index: 100;
-		display: flex;
-		align-items: center;
-		padding: 15px;
-		background: #fff;
-		&-img {
-			width: 70px;
-			height: 70px;
-			margin-right: 15px;
-		}
-		&-info {
-			flex: 1;
-		}
-		&-name,
-		&-singer {
-			display: block;
-			width: 100%;
-		}
-		&-name {
-			font-size: 30px;
-			color: #333;
-		}
-		&-singer {
-			display: block;
-			width: 100%;
-			font-size: 26px;
-			color: #888;
-		}
-		.playe-btn-play {
-			width: 70px;
-			height: 70px;
-			color: #f00;
-			font-size: 20px;
-		}
-	}
+  width: 100%;
+  &-fill {
+    width: 100%;
+    height: 102px;
+  }
+  &-min {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background: #fff;
+    &-img {
+      width: 70px;
+      height: 70px;
+      margin-right: 15px;
+    }
+    &-info {
+      flex: 1;
+    }
+    &-name,
+    &-singer {
+      display: block;
+      width: 100%;
+    }
+    &-name {
+      font-size: 30px;
+      color: #333;
+    }
+    &-singer {
+      display: block;
+      width: 100%;
+      font-size: 26px;
+      color: #888;
+    }
+    .playe-btn-play {
+      width: 70px;
+      height: 70px;
+      color: #f00;
+      font-size: 20px;
+    }
+  }
 }

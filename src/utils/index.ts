@@ -3,8 +3,8 @@
  * @param list list
  * @param music 查找对象
  */
-export const findIndex = (list, music) => {
-	return list.findIndex(item => {
-		return item.id === music.id
-	})
+export const findIndex = (list: any[], music: any) => {
+  return list.findIndex(item => {
+    return item.id === music.id
+  })
 }
